@@ -8588,36 +8588,62 @@ a:hover {
   padding: 50px 0;
 }
 
+/* line 189, ../scss/_struture.scss */
+.home-social-companies {
+  background-color: #fff;
+  color: #547193;
+  text-align: center;
+  vertical-align: middle;
+  padding: 60px 0 60px 0;
+  margin: 0;
+}
+/* line 197, ../scss/_struture.scss */
+.home-social-companies h3 {
+  margin: 0 0 10px 0;
+  color: #547193;
+}
+/* line 204, ../scss/_struture.scss */
+.home-social-companies img {
+  margin: 0 20px 0 0;
+  height: 110px;
+  border: 2px solid transparent;
+  padding-left: 5px;
+}
+/* line 210, ../scss/_struture.scss */
+.home-social-companies img:hover {
+  border: 2px solid #547193;
+}
+
 /* 'FOOTER
 ======================================  */
-/* line 195, ../scss/_struture.scss */
+/* line 219, ../scss/_struture.scss */
 footer .footer-bottom {
   background: #547193;
   color: #fff;
   padding: 20px 0;
 }
-/* line 199, ../scss/_struture.scss */
+/* line 223, ../scss/_struture.scss */
 footer .footer-bottom p {
   font-size: 0.8rem !important;
 }
-/* line 201, ../scss/_struture.scss */
+/* line 225, ../scss/_struture.scss */
 footer .footer-bottom .copyright {
   font-size: 14px !important;
 }
-/* line 203, ../scss/_struture.scss */
+/* line 227, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 {
   color: #fff;
   margin-bottom: 0;
 }
-/* line 204, ../scss/_struture.scss */
+/* line 228, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 small {
   color: #fff;
 }
-/* line 206, ../scss/_struture.scss */
+/* line 230, ../scss/_struture.scss */
 footer .footer-bottom .copyright a {
   color: #fff !important;
 }
-/* line 207, ../scss/_struture.scss */
+/* line 231, ../scss/_struture.scss */
 footer .footer-bottom .copyright a:hover {
   text-decoration: underline;
 }
