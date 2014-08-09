@@ -223,11 +223,14 @@
 /* 'SECTIONS
 ======================================  */
 		.home-features, .home-planos , .home-treinamento, .home-do{padding: 50px 0;}
+ 
 
-
+ .home-treinamento{
+ 	background: #e8e8e8;
+ }
 
 .home-planos{
-			background: shade($primary-color, 10%);
+			background: shade($primary-color, 60%);
 
 			.title-section{
 				color: #fff;
@@ -331,7 +334,7 @@
 ======================================  */
 		footer{
 			.footer-bottom{
-				background: #547193 ; //shade($primary-color, 50%);
+		background: shade($primary-color, 40%);
 				color: #fff;
 				padding: 20px 0;
 		 		p{font-size: 0.8rem !important}

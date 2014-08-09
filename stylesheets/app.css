@@ -8669,29 +8669,34 @@ a:hover {
   padding: 50px 0;
 }
 
-/* line 229, ../scss/_struture.scss */
-.home-planos {
-  background: #4b6584;
+/* line 228, ../scss/_struture.scss */
+.home-treinamento {
+  background: #e8e8e8;
 }
+
 /* line 232, ../scss/_struture.scss */
+.home-planos {
+  background: #212d3a;
+}
+/* line 235, ../scss/_struture.scss */
 .home-planos .title-section {
   color: #fff;
 }
-/* line 236, ../scss/_struture.scss */
+/* line 239, ../scss/_struture.scss */
 .home-planos .helpline-section {
   color: #fff;
 }
-/* line 240, ../scss/_struture.scss */
+/* line 243, ../scss/_struture.scss */
 .home-planos p {
   color: white;
 }
-/* line 244, ../scss/_struture.scss */
+/* line 247, ../scss/_struture.scss */
 .home-planos a {
   color: white;
   font-weight: 400;
 }
 
-/* line 253, ../scss/_struture.scss */
+/* line 256, ../scss/_struture.scss */
 .home-social-companies {
   background-color: #fff;
   color: #547193;
@@ -8699,12 +8704,12 @@ a:hover {
   padding: 60px 0 60px 0;
   margin: 0;
 }
-/* line 261, ../scss/_struture.scss */
+/* line 264, ../scss/_struture.scss */
 .home-social-companies h3 {
   margin: 0 0 10px 0;
   color: #547193;
 }
-/* line 267, ../scss/_struture.scss */
+/* line 270, ../scss/_struture.scss */
 .home-social-companies img {
   margin: 0 20px 0 0;
   height: 110px;
@@ -8712,25 +8717,25 @@ a:hover {
   padding-left: 5px;
   transition: border 0.15s 0.05s;
 }
-/* line 274, ../scss/_struture.scss */
+/* line 277, ../scss/_struture.scss */
 .home-social-companies img:hover {
   border: 2px solid #547193;
 }
-/* line 277, ../scss/_struture.scss */
+/* line 280, ../scss/_struture.scss */
 .home-social-companies .partners {
   text-align: center;
 }
 
-/* line 285, ../scss/_struture.scss */
+/* line 288, ../scss/_struture.scss */
 .home-features {
   background: #2a3849;
   color: #fff;
 }
-/* line 289, ../scss/_struture.scss */
+/* line 292, ../scss/_struture.scss */
 .home-features .title-section {
   color: #fff;
 }
-/* line 290, ../scss/_struture.scss */
+/* line 293, ../scss/_struture.scss */
 .home-features .feature {
   transition: box-shadow 0.15s 0.05s;
   border-radius: 5px;
@@ -8742,15 +8747,15 @@ a:hover {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
-/* line 302, ../scss/_struture.scss */
+/* line 305, ../scss/_struture.scss */
 .home-features .feature .feature-header img {
   border-radius: 5px 5px 0 0;
 }
-/* line 304, ../scss/_struture.scss */
+/* line 307, ../scss/_struture.scss */
 .home-features .feature .feature-body {
   padding: 0 15px 10px;
 }
-/* line 307, ../scss/_struture.scss */
+/* line 310, ../scss/_struture.scss */
 .home-features .feature .feature-body h3 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -8758,50 +8763,50 @@ a:hover {
   padding-bottom: 0;
   font-size: 1.5em;
 }
-/* line 315, ../scss/_struture.scss */
+/* line 318, ../scss/_struture.scss */
 .home-features .feature .feature-body h4 {
   font-weight: 600;
   font-size: 1.2rem;
 }
-/* line 320, ../scss/_struture.scss */
+/* line 323, ../scss/_struture.scss */
 .home-features .feature:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 323, ../scss/_struture.scss */
+/* line 326, ../scss/_struture.scss */
 .home-features ul {
   padding: 0 10px;
 }
 
 /* 'FOOTER
 ======================================  */
-/* line 333, ../scss/_struture.scss */
+/* line 336, ../scss/_struture.scss */
 footer .footer-bottom {
-  background: #547193;
+  background: #324358;
   color: #fff;
   padding: 20px 0;
 }
-/* line 337, ../scss/_struture.scss */
+/* line 340, ../scss/_struture.scss */
 footer .footer-bottom p {
   font-size: 0.8rem !important;
 }
-/* line 339, ../scss/_struture.scss */
+/* line 342, ../scss/_struture.scss */
 footer .footer-bottom .copyright {
   font-size: 14px !important;
 }
-/* line 341, ../scss/_struture.scss */
+/* line 344, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 {
   color: #fff;
   margin-bottom: 0;
 }
-/* line 342, ../scss/_struture.scss */
+/* line 345, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 small {
   color: #fff;
 }
-/* line 344, ../scss/_struture.scss */
+/* line 347, ../scss/_struture.scss */
 footer .footer-bottom .copyright a {
   color: #fff !important;
 }
-/* line 345, ../scss/_struture.scss */
+/* line 348, ../scss/_struture.scss */
 footer .footer-bottom .copyright a:hover {
   text-decoration: underline;
 }
