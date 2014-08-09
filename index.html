@@ -30,9 +30,12 @@
 
 
 
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />    
+    <link rel="stylesheet" href="bower_components/foundation-icons/foundation-icons.css" />
+
     <script src="bower_components/modernizr/modernizr.js"></script>
 
+    <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
   </head>
   <body>
@@ -130,9 +133,9 @@
             <li class="divider"></li>
             <li>                 <a href="treinamento.html" target="_blank" ><span> Cadastre-se</span></a></li>
             <li class="divider"></li>
-            <li class="active"> <a href="http://www.platinios.com.br/acesso" target="_blank" ><span> Acesse o sistema</span></a></li>
+            <li class="active"> <a href="http://www.platinios.com.br/acesso" target="_blank" class="btn-primary" ><span> Acesse o sistema</span></a></li>
             <li class="divider"></li>
-            <li class="tab-bar"> <a class="right-off-canvas-toggle menu-icon" ></a></li>
+            <li class="tab-bar">  <a class="right-off-canvas-toggle  fi-list size-24" >   </a></li>
            </ul>
 
      
@@ -255,6 +258,79 @@
 </div> <!-- //row -->
 
 
+<div class="row">
+
+  <h3 class="title-section">Conheça os <strong>recursos do sistema</strong>  </h3>
+          <p  class="helpline-section"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi, dolorem ullam vel. Sapiente quis quia libero quo doloremque nisi earum suscipit inventore ea. Ratione aut repellat ipsa laborum porro!</p>
+          
+
+
+<ul class="example-orbit-content" data-orbit>
+  <li data-orbit-slide="headline-1">
+    <div>
+           <div class="large-4 columns">
+                <h1>Nome do recursos 1 <strong>com destaque</strong></h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+              </div>
+            <div class="large-8 columns">
+                <div class="flex-video widescreen vimeo">
+                  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+            </div>
+    </div>
+  </li>
+  <li data-orbit-slide="headline-2">
+    <div>
+           <div class="large-4 columns">
+                <h1>Nome do recursos 2 <strong>com destaque</strong></h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+              </div>
+            <div class="large-8 columns">
+                <div class="flex-video widescreen vimeo">
+                  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+            </div>
+    </div>
+  </li>
+  <li data-orbit-slide="headline-3">
+     <div>
+           <div class="large-4 columns">
+                <h1>Nome do recursos 3<strong>com destaque</strong></h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, dicta aliquam, quod eveniet nemo, sequi autem nesciunt alias rerum totam, ab assumenda. Ut aliquam velit aperiam, aspernatur nisi voluptatum.</p>
+              </div>
+            <div class="large-8 columns">
+                <div class="flex-video widescreen vimeo">
+                  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+            </div>
+    </div>
+  </li>
+</ul>
+
+
+
+
+    
+
+</div> <!-- //row -->
+
+
+
+
+
+
+
+
+<div class="row">
+      <div class="large-12 columns">
+        <hr>
+      </div><!-- //large-12 columns -->
+</div> <!-- //row -->
+
+
 
  
 <section class="home-treinamento">
@@ -264,6 +340,10 @@
           <h3 class="title-section">Conheça os <strong>recursos do sistema</strong>  </h3>
           <p  class="helpline-section"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi, dolorem ullam vel. Sapiente quis quia libero quo doloremque nisi earum suscipit inventore ea. Ratione aut repellat ipsa laborum porro!</p>
           
+
+  
+
+
           <div class="row">
                     <div class="large-4 medium-4 columns">
                           <p>
@@ -443,7 +523,7 @@
 
 
 
-<section class="home-planos dark">
+<section class="home-planos">
   
   <div class="row">
       <div class="large-12 columns">
@@ -521,12 +601,12 @@
 
       <section class="footer-bottom">
           <div class="row">
-                <div class="large-10 columns copyright">
+                <div class="small-10 columns copyright">
                           <h4><strong>Dinsoft | </strong> <small>Sistemas para contabilidade</small></h4>
                           <p>Centro Empresarial de Tecnologia Alfama, 600 - 88030-911 - Florianópolis - Santa Catarina - +55 48 3338-0262 - <a href="mailto:comercial@dinamicasoft.com.br">comercial@dinamicasoft.com.br</a> </p>
               </div>
               
-                <div class="large-2 columns">
+                <div class="small-2 columns">
                   <img class="pull-right" src="images/user-interface/apple-touch-icon-light-57x57.png">
                </div>
 

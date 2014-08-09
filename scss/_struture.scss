@@ -11,6 +11,33 @@
 		}
 
 
+.btn-primary {
+	background-color: #ED4942 !important;
+	border-color: #C5372F !important;
+	color: #FFFFFF !important;
+	border-radius: 4px !important;
+	}
+
+
+
+	.right{  float: right;}
+	.left{  float: left;}
+ 
+      .size-12 { font-size: 12px !important; }
+      .size-14 { font-size: 14px !important; }
+      .size-16 { font-size: 16px !important; }
+      .size-18 { font-size: 18px !important; }
+      .size-21 { font-size: 21px !important; }
+      .size-24 { font-size: 24px !important; }
+      .size-36 { font-size: 36px !important; }
+      .size-48 { font-size: 48px !important; }
+      .size-60 { font-size: 60px !important; }
+      .size-72 { font-size: 72px !important; }
+
+
+
+
+
 
 /* 'HERO
 ======================================  */
@@ -20,14 +47,15 @@
 			font-size: 48px;	
 			text-transform: uppercase;
 
-			background: url(../_images/hero/background.jpg) #547193 ;
+			background: url(../images/hero/background.jpg) #547193 ;
 			background-repeat: no-repeat;
 			background-size: cover;
+
+			   
 
 			height: 650px;
 			text-align: center;
 		 	padding: 0px 0px;
-
 
 			 .hero-title {
 				color: #FFFFFF;
@@ -41,13 +69,11 @@
 				color: #f2f2f2;
 				}
 
-
-
 			.top-bar{ 
 				margin-bottom: 100px;
 				padding-top: 20px;
 				.menu-top{
-					a{ border:1px solid transparent;padding: 0px 20px !important }
+					a{ border:1px solid transparent; padding: 0px 20px !important }
 					a:hover{ border:1px solid #fff;}
 				}
 
@@ -200,6 +226,30 @@
 
 
 
+.home-planos{
+			background: shade($primary-color, 10%);
+
+			.title-section{
+				color: #fff;
+			}
+
+			.helpline-section{
+				color: #fff;
+			}
+
+			p{
+				color: #fff
+			}
+
+			a{
+				color: lighten($primary-color, 60%);
+				font-weight: 400;
+			}
+
+			 
+}
+
+
 		.home-social-companies{
 				background-color: #fff;
 				color: $primary-color;
@@ -233,7 +283,7 @@
 
 
 	.home-features{
-		background: $primary-color; //shade($primary-color, 50%);
+		background: shade($primary-color, 50%);
 		color: #fff;
 
 		.title-section{color: #fff}
@@ -300,5 +350,6 @@
 		}
 
 
-
+      
+ 
  
