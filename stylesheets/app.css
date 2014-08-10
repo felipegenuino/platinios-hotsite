@@ -8443,69 +8443,74 @@ th.hide-for-touch {
   border-radius: 4px !important;
 }
 
-/* line 23, ../scss/_struture.scss */
+/* line 24, ../scss/_struture.scss */
+a.right-off-canvas-toggle {
+  color: #fff;
+}
+
+/* line 29, ../scss/_struture.scss */
 .right {
   float: right;
 }
 
-/* line 24, ../scss/_struture.scss */
+/* line 30, ../scss/_struture.scss */
 .left {
   float: left;
 }
 
-/* line 26, ../scss/_struture.scss */
+/* line 32, ../scss/_struture.scss */
 .size-12 {
   font-size: 12px !important;
 }
 
-/* line 27, ../scss/_struture.scss */
+/* line 33, ../scss/_struture.scss */
 .size-14 {
   font-size: 14px !important;
 }
 
-/* line 28, ../scss/_struture.scss */
+/* line 34, ../scss/_struture.scss */
 .size-16 {
   font-size: 16px !important;
 }
 
-/* line 29, ../scss/_struture.scss */
+/* line 35, ../scss/_struture.scss */
 .size-18 {
   font-size: 18px !important;
 }
 
-/* line 30, ../scss/_struture.scss */
+/* line 36, ../scss/_struture.scss */
 .size-21 {
   font-size: 21px !important;
 }
 
-/* line 31, ../scss/_struture.scss */
+/* line 37, ../scss/_struture.scss */
 .size-24 {
   font-size: 24px !important;
 }
 
-/* line 32, ../scss/_struture.scss */
+/* line 38, ../scss/_struture.scss */
 .size-36 {
   font-size: 36px !important;
 }
 
-/* line 33, ../scss/_struture.scss */
+/* line 39, ../scss/_struture.scss */
 .size-48 {
   font-size: 48px !important;
 }
 
-/* line 34, ../scss/_struture.scss */
+/* line 40, ../scss/_struture.scss */
 .size-60 {
   font-size: 60px !important;
 }
 
-/* line 35, ../scss/_struture.scss */
+/* line 41, ../scss/_struture.scss */
 .size-72 {
   font-size: 72px !important;
 }
 
 /* 'HERO
 ======================================  */
-/* line 45, ../scss/_struture.scss */
+/* line 51, ../scss/_struture.scss */
 .hero {
   color: #eee;
   font-size: 48px;
@@ -8517,46 +8522,46 @@ th.hide-for-touch {
   text-align: center;
   padding: 0px 0px;
 }
-/* line 60, ../scss/_struture.scss */
+/* line 66, ../scss/_struture.scss */
 .hero .hero-title {
   color: #FFFFFF;
   font-weight: bold;
 }
-/* line 65, ../scss/_struture.scss */
+/* line 71, ../scss/_struture.scss */
 .hero .hero-subtitle {
   margin-bottom: 20px;
   font-weight: 100;
   line-height: 1.4;
   color: #f2f2f2;
 }
-/* line 72, ../scss/_struture.scss */
+/* line 78, ../scss/_struture.scss */
 .hero .top-bar {
   margin-bottom: 100px;
   padding-top: 20px;
 }
-/* line 76, ../scss/_struture.scss */
+/* line 82, ../scss/_struture.scss */
 .hero .top-bar .menu-top a {
   border: 1px solid transparent;
   padding: 0px 20px !important;
 }
-/* line 77, ../scss/_struture.scss */
+/* line 83, ../scss/_struture.scss */
 .hero .top-bar .menu-top a:hover {
   border: 1px solid #fff;
 }
 
-/* line 87, ../scss/_struture.scss */
+/* line 93, ../scss/_struture.scss */
 .logotipo-small {
   width: 160px;
 }
 
 /* 'SIGN UP BAR
 ======================================  */
-/* line 95, ../scss/_struture.scss */
+/* line 101, ../scss/_struture.scss */
 .sign-up-bar {
   background: #2a3849;
   padding: 30px 0 20px 0;
 }
-/* line 99, ../scss/_struture.scss */
+/* line 105, ../scss/_struture.scss */
 .sign-up-bar .sign-up-text-wrapper .sign-up-text {
   margin-top: 0px;
   margin-right: 16px;
@@ -8564,18 +8569,18 @@ th.hide-for-touch {
   font-weight: 600;
   text-align: center;
 }
-/* line 105, ../scss/_struture.scss */
+/* line 111, ../scss/_struture.scss */
 .sign-up-bar .sign-up-text-wrapper .sign-up-text.sub {
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   font-weight: 400;
 }
-/* line 113, ../scss/_struture.scss */
+/* line 119, ../scss/_struture.scss */
 .sign-up-bar .hero-form {
   margin-top: 10px;
 }
-/* line 116, ../scss/_struture.scss */
+/* line 122, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-text-field {
   position: relative;
   z-index: 2;
@@ -8589,7 +8594,7 @@ th.hide-for-touch {
   color: white;
   font-weight: 600;
 }
-/* line 131, ../scss/_struture.scss */
+/* line 137, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-float-label {
   position: absolute;
   left: 25px;
@@ -8602,7 +8607,7 @@ th.hide-for-touch {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 147, ../scss/_struture.scss */
+/* line 153, ../scss/_struture.scss */
 .sign-up-bar .hero-form .form-group:hover .hero-float-label,
 .sign-up-bar .hero-form .form-group.active .hero-float-label {
   transition: opacity 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 250ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -8610,7 +8615,7 @@ th.hide-for-touch {
   transform: translateY(-20px);
   opacity: 0.5;
 }
-/* line 154, ../scss/_struture.scss */
+/* line 160, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-input, .sign-up-bar .hero-form .hero-select {
   display: block;
   width: 100%;
@@ -8623,7 +8628,7 @@ th.hide-for-touch {
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 168, ../scss/_struture.scss */
+/* line 174, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-button {
   display: inline-block;
   width: 100%;
@@ -8638,7 +8643,7 @@ th.hide-for-touch {
   text-align: center;
   margin-bottom: 0 !important;
 }
-/* line 189, ../scss/_struture.scss */
+/* line 195, ../scss/_struture.scss */
 .sign-up-bar .hero-form .terms {
   margin-top: 5px;
   color: #374b61;
@@ -8647,56 +8652,56 @@ th.hide-for-touch {
   text-align: center;
 }
 
-/* line 205, ../scss/_struture.scss */
+/* line 211, ../scss/_struture.scss */
 a:hover {
   opacity: 0.9;
 }
 
-/* line 211, ../scss/_struture.scss */
+/* line 217, ../scss/_struture.scss */
 .dark {
   background: #2a3849;
   color: #fff;
 }
-/* line 213, ../scss/_struture.scss */
+/* line 219, ../scss/_struture.scss */
 .dark h3 {
   color: #fff;
 }
 
 /* 'SECTIONS
 ======================================  */
-/* line 225, ../scss/_struture.scss */
+/* line 231, ../scss/_struture.scss */
 .home-features, .home-planos, .home-treinamento, .home-do {
   padding: 50px 0;
 }
 
-/* line 228, ../scss/_struture.scss */
+/* line 234, ../scss/_struture.scss */
 .home-treinamento {
   background: #e8e8e8;
 }
 
-/* line 232, ../scss/_struture.scss */
+/* line 238, ../scss/_struture.scss */
 .home-planos {
   background: #212d3a;
 }
-/* line 235, ../scss/_struture.scss */
+/* line 241, ../scss/_struture.scss */
 .home-planos .title-section {
   color: #fff;
 }
-/* line 239, ../scss/_struture.scss */
+/* line 245, ../scss/_struture.scss */
 .home-planos .helpline-section {
   color: #fff;
 }
-/* line 243, ../scss/_struture.scss */
+/* line 249, ../scss/_struture.scss */
 .home-planos p {
   color: white;
 }
-/* line 247, ../scss/_struture.scss */
+/* line 253, ../scss/_struture.scss */
 .home-planos a {
   color: white;
   font-weight: 400;
 }
 
-/* line 256, ../scss/_struture.scss */
+/* line 262, ../scss/_struture.scss */
 .home-social-companies {
   background-color: #fff;
   color: #547193;
@@ -8704,12 +8709,12 @@ a:hover {
   padding: 60px 0 60px 0;
   margin: 0;
 }
-/* line 264, ../scss/_struture.scss */
+/* line 270, ../scss/_struture.scss */
 .home-social-companies h3 {
   margin: 0 0 10px 0;
   color: #547193;
 }
-/* line 270, ../scss/_struture.scss */
+/* line 276, ../scss/_struture.scss */
 .home-social-companies img {
   margin: 0 20px 0 0;
   height: 110px;
@@ -8717,25 +8722,25 @@ a:hover {
   padding-left: 5px;
   transition: border 0.15s 0.05s;
 }
-/* line 277, ../scss/_struture.scss */
+/* line 283, ../scss/_struture.scss */
 .home-social-companies img:hover {
   border: 2px solid #547193;
 }
-/* line 280, ../scss/_struture.scss */
+/* line 286, ../scss/_struture.scss */
 .home-social-companies .partners {
   text-align: center;
 }
 
-/* line 288, ../scss/_struture.scss */
+/* line 294, ../scss/_struture.scss */
 .home-features {
   background: #2a3849;
   color: #fff;
 }
-/* line 292, ../scss/_struture.scss */
+/* line 298, ../scss/_struture.scss */
 .home-features .title-section {
   color: #fff;
 }
-/* line 293, ../scss/_struture.scss */
+/* line 299, ../scss/_struture.scss */
 .home-features .feature {
   transition: box-shadow 0.15s 0.05s;
   border-radius: 5px;
@@ -8747,15 +8752,15 @@ a:hover {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
-/* line 305, ../scss/_struture.scss */
+/* line 311, ../scss/_struture.scss */
 .home-features .feature .feature-header img {
   border-radius: 5px 5px 0 0;
 }
-/* line 307, ../scss/_struture.scss */
+/* line 313, ../scss/_struture.scss */
 .home-features .feature .feature-body {
   padding: 0 15px 10px;
 }
-/* line 310, ../scss/_struture.scss */
+/* line 316, ../scss/_struture.scss */
 .home-features .feature .feature-body h3 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -8763,50 +8768,50 @@ a:hover {
   padding-bottom: 0;
   font-size: 1.5em;
 }
-/* line 318, ../scss/_struture.scss */
+/* line 324, ../scss/_struture.scss */
 .home-features .feature .feature-body h4 {
   font-weight: 600;
   font-size: 1.2rem;
 }
-/* line 323, ../scss/_struture.scss */
+/* line 329, ../scss/_struture.scss */
 .home-features .feature:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 326, ../scss/_struture.scss */
+/* line 332, ../scss/_struture.scss */
 .home-features ul {
   padding: 0 10px;
 }
 
 /* 'FOOTER
 ======================================  */
-/* line 336, ../scss/_struture.scss */
+/* line 342, ../scss/_struture.scss */
 footer .footer-bottom {
   background: #324358;
   color: #fff;
   padding: 20px 0;
 }
-/* line 340, ../scss/_struture.scss */
+/* line 346, ../scss/_struture.scss */
 footer .footer-bottom p {
   font-size: 0.8rem !important;
 }
-/* line 342, ../scss/_struture.scss */
+/* line 348, ../scss/_struture.scss */
 footer .footer-bottom .copyright {
   font-size: 14px !important;
 }
-/* line 344, ../scss/_struture.scss */
+/* line 350, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 {
   color: #fff;
   margin-bottom: 0;
 }
-/* line 345, ../scss/_struture.scss */
+/* line 351, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 small {
   color: #fff;
 }
-/* line 347, ../scss/_struture.scss */
+/* line 353, ../scss/_struture.scss */
 footer .footer-bottom .copyright a {
   color: #fff !important;
 }
-/* line 348, ../scss/_struture.scss */
+/* line 354, ../scss/_struture.scss */
 footer .footer-bottom .copyright a:hover {
   text-decoration: underline;
 }
