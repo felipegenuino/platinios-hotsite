@@ -6985,7 +6985,7 @@ meta.foundation-mq-topbar {
 }
 /* line 278, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul {
-  padding: 0;
+  padding: 0 20px;
   width: 100%;
   height: auto;
   display: block;
@@ -8435,7 +8435,7 @@ th.hide-for-touch {
   text-align: center;
 }
 
-/* line 14, ../scss/_struture.scss */
+/* line 16, ../scss/_struture.scss */
 .btn-primary {
   background-color: #ED4942 !important;
   border-color: #C5372F !important;
@@ -8443,78 +8443,78 @@ th.hide-for-touch {
   border-radius: 4px !important;
 }
 
-/* line 24, ../scss/_struture.scss */
+/* line 26, ../scss/_struture.scss */
 a.right-off-canvas-toggle {
   color: #fff;
 }
 
-/* line 29, ../scss/_struture.scss */
+/* Pattern */
+/* line 37, ../scss/_struture.scss */
 .right {
   float: right;
 }
 
-/* line 30, ../scss/_struture.scss */
+/* line 38, ../scss/_struture.scss */
 .left {
   float: left;
 }
 
-/* line 32, ../scss/_struture.scss */
+/* line 40, ../scss/_struture.scss */
 .size-12 {
   font-size: 12px !important;
 }
 
-/* line 33, ../scss/_struture.scss */
+/* line 41, ../scss/_struture.scss */
 .size-14 {
   font-size: 14px !important;
 }
 
-/* line 34, ../scss/_struture.scss */
+/* line 42, ../scss/_struture.scss */
 .size-16 {
   font-size: 16px !important;
 }
 
-/* line 35, ../scss/_struture.scss */
+/* line 43, ../scss/_struture.scss */
 .size-18 {
   font-size: 18px !important;
 }
 
-/* line 36, ../scss/_struture.scss */
+/* line 44, ../scss/_struture.scss */
 .size-21 {
   font-size: 21px !important;
 }
 
-/* line 37, ../scss/_struture.scss */
+/* line 45, ../scss/_struture.scss */
 .size-24 {
   font-size: 24px !important;
 }
 
-/* line 38, ../scss/_struture.scss */
+/* line 46, ../scss/_struture.scss */
 .size-36 {
   font-size: 36px !important;
 }
 
-/* line 39, ../scss/_struture.scss */
+/* line 47, ../scss/_struture.scss */
 .size-48 {
   font-size: 48px !important;
 }
 
-/* line 40, ../scss/_struture.scss */
+/* line 48, ../scss/_struture.scss */
 .size-60 {
   font-size: 60px !important;
 }
 
-/* line 41, ../scss/_struture.scss */
+/* line 49, ../scss/_struture.scss */
 .size-72 {
   font-size: 72px !important;
 }
 
 /* 'HERO
 ======================================  */
-/* line 51, ../scss/_struture.scss */
+/* line 59, ../scss/_struture.scss */
 .hero {
   color: #eee;
-  font-size: 48px;
-  text-transform: uppercase;
+  font-size: 50px;
   background: url(../images/hero/background.jpg) #547193;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8522,46 +8522,63 @@ a.right-off-canvas-toggle {
   text-align: center;
   padding: 0px 0px;
 }
-/* line 66, ../scss/_struture.scss */
+/* line 73, ../scss/_struture.scss */
 .hero .hero-title {
   color: #FFFFFF;
-  font-weight: bold;
-}
-/* line 71, ../scss/_struture.scss */
-.hero .hero-subtitle {
-  margin-bottom: 20px;
+  font-size: 50px;
   font-weight: 100;
-  line-height: 1.4;
-  color: #f2f2f2;
+  margin: 0 0 20px;
+  line-height: 1;
 }
-/* line 78, ../scss/_struture.scss */
+/* line 81, ../scss/_struture.scss */
+.hero .hero-subtitle {
+  color: #BDC4C8;
+  font-size: 28px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 20px;
+}
+/* line 89, ../scss/_struture.scss */
 .hero .top-bar {
-  margin-bottom: 100px;
+  margin-bottom: 160px;
   padding-top: 20px;
 }
-/* line 82, ../scss/_struture.scss */
+/* line 93, ../scss/_struture.scss */
 .hero .top-bar .menu-top a {
   border: 1px solid transparent;
   padding: 0px 20px !important;
 }
-/* line 83, ../scss/_struture.scss */
+/* line 94, ../scss/_struture.scss */
 .hero .top-bar .menu-top a:hover {
   border: 1px solid #fff;
 }
 
-/* line 93, ../scss/_struture.scss */
+/* line 102, ../scss/_struture.scss */
+.hero-acesso-small {
+  margin: 0 auto;
+  display: block;
+  width: 180px;
+}
+/* line 106, ../scss/_struture.scss */
+.hero-acesso-small span {
+  display: block;
+  font-size: 17px;
+  padding: 15px;
+}
+
+/* line 113, ../scss/_struture.scss */
 .logotipo-small {
-  width: 160px;
+  width: 185px;
 }
 
 /* 'SIGN UP BAR
 ======================================  */
-/* line 101, ../scss/_struture.scss */
+/* line 121, ../scss/_struture.scss */
 .sign-up-bar {
   background: #2a3849;
   padding: 30px 0 20px 0;
 }
-/* line 105, ../scss/_struture.scss */
+/* line 125, ../scss/_struture.scss */
 .sign-up-bar .sign-up-text-wrapper .sign-up-text {
   margin-top: 0px;
   margin-right: 16px;
@@ -8569,18 +8586,18 @@ a.right-off-canvas-toggle {
   font-weight: 600;
   text-align: center;
 }
-/* line 111, ../scss/_struture.scss */
+/* line 131, ../scss/_struture.scss */
 .sign-up-bar .sign-up-text-wrapper .sign-up-text.sub {
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   font-weight: 400;
 }
-/* line 119, ../scss/_struture.scss */
+/* line 139, ../scss/_struture.scss */
 .sign-up-bar .hero-form {
   margin-top: 10px;
 }
-/* line 122, ../scss/_struture.scss */
+/* line 142, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-text-field {
   position: relative;
   z-index: 2;
@@ -8594,7 +8611,7 @@ a.right-off-canvas-toggle {
   color: white;
   font-weight: 600;
 }
-/* line 137, ../scss/_struture.scss */
+/* line 157, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-float-label {
   position: absolute;
   left: 25px;
@@ -8607,7 +8624,7 @@ a.right-off-canvas-toggle {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 153, ../scss/_struture.scss */
+/* line 173, ../scss/_struture.scss */
 .sign-up-bar .hero-form .form-group:hover .hero-float-label,
 .sign-up-bar .hero-form .form-group.active .hero-float-label {
   transition: opacity 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 250ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -8615,7 +8632,7 @@ a.right-off-canvas-toggle {
   transform: translateY(-20px);
   opacity: 0.5;
 }
-/* line 160, ../scss/_struture.scss */
+/* line 180, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-input, .sign-up-bar .hero-form .hero-select {
   display: block;
   width: 100%;
@@ -8628,7 +8645,7 @@ a.right-off-canvas-toggle {
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 174, ../scss/_struture.scss */
+/* line 194, ../scss/_struture.scss */
 .sign-up-bar .hero-form .hero-button {
   display: inline-block;
   width: 100%;
@@ -8643,7 +8660,7 @@ a.right-off-canvas-toggle {
   text-align: center;
   margin-bottom: 0 !important;
 }
-/* line 195, ../scss/_struture.scss */
+/* line 215, ../scss/_struture.scss */
 .sign-up-bar .hero-form .terms {
   margin-top: 5px;
   color: #374b61;
@@ -8652,95 +8669,146 @@ a.right-off-canvas-toggle {
   text-align: center;
 }
 
-/* line 211, ../scss/_struture.scss */
+/* line 231, ../scss/_struture.scss */
 a:hover {
   opacity: 0.9;
 }
 
-/* line 217, ../scss/_struture.scss */
+/* line 237, ../scss/_struture.scss */
 .dark {
   background: #2a3849;
   color: #fff;
 }
-/* line 219, ../scss/_struture.scss */
+/* line 239, ../scss/_struture.scss */
 .dark h3 {
   color: #fff;
 }
 
 /* 'SECTIONS
 ======================================  */
-/* line 231, ../scss/_struture.scss */
+/* line 251, ../scss/_struture.scss */
 .home-features, .home-planos, .home-treinamento, .home-do {
   padding: 50px 0;
 }
 
-/* line 234, ../scss/_struture.scss */
+/* line 254, ../scss/_struture.scss */
 .home-treinamento {
   background: #e8e8e8;
 }
 
-/* line 238, ../scss/_struture.scss */
-.home-planos {
-  background: #212d3a;
+/* line 263, ../scss/_struture.scss */
+.home-brief-feature {
+  padding: 80px 0;
+  background: url(http://subtlepatterns.com/patterns/debut_light.png);
 }
-/* line 241, ../scss/_struture.scss */
+/* line 267, ../scss/_struture.scss */
+.home-brief-feature .feature-product {
+  position: relative;
+  display: block;
+  padding: 20px 10px;
+  border: 2px solid transparent;
+  transition: all 0.15s 0.05s;
+}
+/* line 273, ../scss/_struture.scss */
+.home-brief-feature .feature-product:hover {
+  background: #f2f2f2;
+  border: 2px solid #547193;
+}
+/* line 277, ../scss/_struture.scss */
+.home-brief-feature .feature-product .feature-icon {
+  position: absolute;
+  font-size: 36px;
+}
+/* line 278, ../scss/_struture.scss */
+.home-brief-feature .feature-product .feature-body {
+  padding-left: 50px;
+}
+/* line 280, ../scss/_struture.scss */
+.home-brief-feature .feature-product .feature-body .title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+/* line 285, ../scss/_struture.scss */
+.home-brief-feature .feature-product .feature-body p {
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+/* line 296, ../scss/_struture.scss */
+.home-planos {
+  background: url(../images/content/mini-banner-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 0px 64px #000 inset;
+  -moz-box-shadow: 0px 0px 64px #000 inset;
+  -webkit-box-shadow: 0px 0px 64px #000 inset;
+}
+/* line 309, ../scss/_struture.scss */
 .home-planos .title-section {
   color: #fff;
+  text-align: left;
 }
-/* line 245, ../scss/_struture.scss */
+/* line 315, ../scss/_struture.scss */
 .home-planos .helpline-section {
   color: #fff;
 }
-/* line 249, ../scss/_struture.scss */
+/* line 319, ../scss/_struture.scss */
+.home-planos h4 {
+  color: #fff;
+  font-weight: 100;
+  line-height: 1;
+}
+/* line 324, ../scss/_struture.scss */
+.home-planos h4 span {
+  display: block;
+  font-size: 0.8em;
+}
+/* line 330, ../scss/_struture.scss */
 .home-planos p {
   color: white;
 }
-/* line 253, ../scss/_struture.scss */
-.home-planos a {
-  color: white;
-  font-weight: 400;
-}
 
-/* line 262, ../scss/_struture.scss */
+/* line 343, ../scss/_struture.scss */
 .home-social-companies {
   background-color: #fff;
   color: #547193;
   vertical-align: middle;
   padding: 60px 0 60px 0;
   margin: 0;
+  border-top: 1px solid #ccc;
 }
-/* line 270, ../scss/_struture.scss */
+/* line 352, ../scss/_struture.scss */
 .home-social-companies h3 {
   margin: 0 0 10px 0;
-  color: #547193;
+  color: #2a3849;
 }
-/* line 276, ../scss/_struture.scss */
+/* line 358, ../scss/_struture.scss */
 .home-social-companies img {
   margin: 0 20px 0 0;
   height: 110px;
   border: 2px solid #fff;
-  padding-left: 5px;
   transition: border 0.15s 0.05s;
 }
-/* line 283, ../scss/_struture.scss */
+/* line 364, ../scss/_struture.scss */
 .home-social-companies img:hover {
   border: 2px solid #547193;
 }
-/* line 286, ../scss/_struture.scss */
+/* line 367, ../scss/_struture.scss */
 .home-social-companies .partners {
   text-align: center;
 }
 
-/* line 294, ../scss/_struture.scss */
+/* line 375, ../scss/_struture.scss */
 .home-features {
   background: #2a3849;
   color: #fff;
 }
-/* line 298, ../scss/_struture.scss */
+/* line 379, ../scss/_struture.scss */
 .home-features .title-section {
   color: #fff;
 }
-/* line 299, ../scss/_struture.scss */
+/* line 380, ../scss/_struture.scss */
 .home-features .feature {
   transition: box-shadow 0.15s 0.05s;
   border-radius: 5px;
@@ -8752,15 +8820,15 @@ a:hover {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
-/* line 311, ../scss/_struture.scss */
+/* line 392, ../scss/_struture.scss */
 .home-features .feature .feature-header img {
   border-radius: 5px 5px 0 0;
 }
-/* line 313, ../scss/_struture.scss */
+/* line 394, ../scss/_struture.scss */
 .home-features .feature .feature-body {
   padding: 0 15px 10px;
 }
-/* line 316, ../scss/_struture.scss */
+/* line 397, ../scss/_struture.scss */
 .home-features .feature .feature-body h3 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -8768,50 +8836,63 @@ a:hover {
   padding-bottom: 0;
   font-size: 1.5em;
 }
-/* line 324, ../scss/_struture.scss */
+/* line 405, ../scss/_struture.scss */
 .home-features .feature .feature-body h4 {
   font-weight: 600;
   font-size: 1.2rem;
 }
-/* line 329, ../scss/_struture.scss */
+/* line 410, ../scss/_struture.scss */
 .home-features .feature:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 332, ../scss/_struture.scss */
+/* line 413, ../scss/_struture.scss */
 .home-features ul {
   padding: 0 10px;
 }
 
 /* 'FOOTER
 ======================================  */
-/* line 342, ../scss/_struture.scss */
+/* line 423, ../scss/_struture.scss */
 footer .footer-bottom {
-  background: #324358;
-  color: #fff;
+  background: #282a2b;
+  background-size: cover;
+  background-position: center center;
+  color: #aaa;
   padding: 20px 0;
 }
-/* line 346, ../scss/_struture.scss */
+/* line 434, ../scss/_struture.scss */
 footer .footer-bottom p {
   font-size: 0.8rem !important;
 }
-/* line 348, ../scss/_struture.scss */
+/* line 436, ../scss/_struture.scss */
 footer .footer-bottom .copyright {
   font-size: 14px !important;
 }
-/* line 350, ../scss/_struture.scss */
+/* line 438, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 {
   color: #fff;
   margin-bottom: 0;
 }
-/* line 351, ../scss/_struture.scss */
+/* line 439, ../scss/_struture.scss */
 footer .footer-bottom .copyright h4 small {
   color: #fff;
 }
-/* line 353, ../scss/_struture.scss */
+/* line 441, ../scss/_struture.scss */
 footer .footer-bottom .copyright a {
-  color: #fff !important;
+  color: #8ABEEB;
 }
-/* line 354, ../scss/_struture.scss */
+/* line 442, ../scss/_struture.scss */
 footer .footer-bottom .copyright a:hover {
   text-decoration: underline;
+}
+/* line 446, ../scss/_struture.scss */
+footer .footer-bottom .logo-footer {
+  float: right;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 454, ../scss/_struture.scss */
+  .hero .top-bar {
+    margin-bottom: 50px;
+  }
 }

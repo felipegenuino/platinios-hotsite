@@ -1,15 +1,17 @@
 /* '	GLOBALS
 ======================================  */
-		.title-section{
-			text-align: center;
-			margin-bottom: 20px;
-			font-size: 2rem;
-		}
+.title-section{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
 
-		.helpline-section{
-			text-align: center;
-		}
+.helpline-section{
+	text-align: center;
+}
 
+
+ 
 
 .btn-primary {
 	background-color: #ED4942 !important;
@@ -24,6 +26,12 @@
 a.right-off-canvas-toggle {
 	color: #fff;
 }
+
+
+
+
+/* Pattern */
+
 
 
 	.right{  float: right;}
@@ -50,9 +58,8 @@ a.right-off-canvas-toggle {
 
 		.hero{
 		 	color: #eee;
-			font-size: 48px;	
-			text-transform: uppercase;
-
+			font-size: 50px;	
+ 
 			background: url(../images/hero/background.jpg) #547193 ;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -65,18 +72,22 @@ a.right-off-canvas-toggle {
 
 			 .hero-title {
 				color: #FFFFFF;
-		 		font-weight: bold;
-				}
+				font-size: 50px;
+				font-weight: 100;
+				margin: 0 0 20px;
+				line-height: 1;
+ 				}
 
 			.hero-subtitle {
-				margin-bottom: 20px;
-		 		font-weight: 100;
-				line-height: 1.4;
-				color: #f2f2f2;
+			color: #BDC4C8;
+			font-size: 28px;
+			font-weight: 100;
+			margin: 0;
+			margin-bottom: 20px;
 				}
 
 			.top-bar{ 
-				margin-bottom: 100px;
+				margin-bottom: 160px;
 				padding-top: 20px;
 				.menu-top{
 					a{ border:1px solid transparent; padding: 0px 20px !important }
@@ -88,10 +99,19 @@ a.right-off-canvas-toggle {
 		}
 
 
-
+		.hero-acesso-small{ 
+			margin: 0 auto;
+			display: block;
+			width: 180px;
+			span{
+					display: block;
+					font-size: 17px;
+					padding: 15px;
+			}
+		}
 		 
 		.logotipo-small{
-			width: 160px;
+			width: 185px;
 		 }
 
 
@@ -235,28 +255,89 @@ a.right-off-canvas-toggle {
  	background: #e8e8e8;
  }
 
+
+
+
+
+
+.home-brief-feature{
+	padding: 80px 0;
+	background: url(http://subtlepatterns.com/patterns/debut_light.png);
+
+	.feature-product{
+		position:relative;
+		display: block;
+		padding: 20px 10px;
+		border: 2px solid transparent;
+		transition: all 0.15s 0.05s;
+		&:hover{ 
+			background: #f2f2f2;
+			border: 2px solid $primary-color;
+  		}
+ 		.feature-icon{ position: absolute; font-size:36px}
+		.feature-body{ 
+			padding-left: 50px;
+			.title{
+ 				font-size: 1em;
+				font-weight: 600;
+				margin-bottom: 0;
+			}
+			p{
+				font-size: 0.8em;
+				line-height: 1.4;
+			}
+		}
+	}
+}
+
+
+
+
 .home-planos{
-			background: shade($primary-color, 60%);
+			// background: shade($primary-color, 60%);
+			// background: url(../images/patten/header_bg.jpg) repeat;
+		
+		background: url(../images/content/mini-banner-1.jpg);
+
+		background-size: cover;
+		background-position: center center;
+		box-shadow: 0px 0px 64px #000 inset;
+		-moz-box-shadow: 0px 0px 64px #000 inset;
+		-webkit-box-shadow: 0px 0px 64px #000 inset;
+
 
 			.title-section{
 				color: #fff;
+				text-align: left;
+
 			}
 
 			.helpline-section{
 				color: #fff;
 			}
 
+			h4{
+				color: #fff;
+				font-weight: 100;
+				line-height: 1;
+
+				span{
+					display: block;
+					 font-size: 0.8em;
+				}
+			}
+
 			p{
 				color: #fff
 			}
 
-			a{
-				color: lighten($primary-color, 60%);
-				font-weight: 400;
-			}
+			 
 
 			 
 }
+
+
+
 
 
 		.home-social-companies{
@@ -265,11 +346,12 @@ a.right-off-canvas-toggle {
 				vertical-align: middle;
 				padding: 60px 0 60px 0;
 				margin: 0;
+				border-top: 1px solid #ccc;
 				
 
 				h3 {
 				margin: 0 0 10px 0;
-				color: $primary-color;
+				color: shade($primary-color, 50%);
 				}
 
 
@@ -277,7 +359,6 @@ a.right-off-canvas-toggle {
 					margin: 0 20px 0 0;
 					height: 110px;
 					border:2px solid #fff;
-					padding-left: 5px;
 					transition: border 0.15s 0.05s;
 
 					&:hover{ border:2px solid $primary-color;}
@@ -340,8 +421,15 @@ a.right-off-canvas-toggle {
 ======================================  */
 		footer{
 			.footer-bottom{
-		background: shade($primary-color, 40%);
-				color: #fff;
+		// background: url(../images/hero/background.jpg) #413d41;
+
+
+		background: #282a2b;
+
+		background-size: cover;
+		background-position: center center;
+	
+				color: #aaa;
 				padding: 20px 0;
 		 		p{font-size: 0.8rem !important}
 
@@ -350,13 +438,25 @@ a.right-off-canvas-toggle {
 		 			h4{color: #fff; margin-bottom: 0;
 						small{color: #fff}
 		 			}
-		 			a{color: #fff !important; 
+		 			a{ color: #8ABEEB;
 		 				&:hover {text-decoration: underline; }
 		 			}
 		 		}
 
+		 		.logo-footer{float: right}
+
 			}
 		}
+
+
+
+@media only screen and (max-width: 40em) { 
+	.hero .top-bar {
+	margin-bottom: 50px;
+	}
+
+}
+
 
 
       
